@@ -4,6 +4,30 @@ body{
 }
 h1{font-family: 'Dancing Script', cursive;
 }
+h5{
+    font-family: monospace;
+   
+}
+button{
+    color:white !important;
+    
+    padding: 5px 8px;
+    border-radius:20px !important;
+    border: 1px solid  brown;
+}
+button:hover{
+    
+    background-color: white !important;
+    padding: 5px 8px;
+    border-radius:20px !important;
+    border: 1px solid brown;
+}
+a{
+    font-family: cursive !important;
+}
+.navbar{
+    margin-right: auto;
+}
 .carousel-item img{
     width: 100%;
     height: 80vh;
@@ -18,6 +42,44 @@ h1{font-family: 'Dancing Script', cursive;
 .services .col-md-4:nth-child(6){
     margin-top: 20px!important;
 }
+
+.card-body img{
+    width: 70%;
+    height: 200px;
+}
+/* footer css */
+.page-footer a{
+    color: aliceblue !important;
+    text-decoration: none !important;
+    
+}
+.page-footer a:hover{
+    color:rgb(122, 212, 240) !important;
+    font-size: 1rem;
+    font-weight: 700;
+}
+/* footer icons */
+.footer-icons a i{
+    color:rgb(36, 172, 206) !important;
+    border: 1px solid skyblue !important;
+    background-color: transparent;
+    border-radius: 20px !important;
+    padding: 5px 8px !important;
+}
+.footer-icons a i:hover{
+    background-color: rgb(219, 22, 193);
+}
+.page-footer i{
+    columns: rgb(9, 178, 245) !important;
+    border: 1px solid rgb(39, 127, 241) !important;
+    background-color:rgb(47, 196, 233);
+    border-radius: 20px !important;
+    padding: 5px 8px !important;
+}
+.page-footer i:hover{
+    background-color: rgb(204, 20, 158);
+}
+
 
 @media screen and (max-width: 767px) {
     .services .col-md-4:nth-child(2),
